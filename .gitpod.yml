@@ -1,2 +1,4 @@
 tasks:
   - init: git fetch upstream && git remote add source https://go.googlesource.com/go && git fetch --all 
+image:
+  file: .gitpod.Dockerfile
